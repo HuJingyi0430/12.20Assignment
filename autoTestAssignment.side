@@ -1,0 +1,445 @@
+{
+  "id": "1edb9102-9fb3-4852-bc0a-1bee16293ac6",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.skyscanner.se/",
+  "tests": [{
+    "id": "4ebfcf32-bfe4-4d74-b792-bfffbec9b35f",
+    "name": "wholeProcessClick",
+    "commands": [{
+      "id": "4fc65004-7b3b-4df4-8884-194162d8d52f",
+      "comment": "",
+      "command": "open",
+      "target": "/?previousCultureSource=COOKIE&redirectedFrom=www.skyscanner.net",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f952aa20-1033-4a8b-b1fb-381912468013",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2434x1345",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f976542-358c-4b57-a833-63040bd27954",
+      "comment": "",
+      "command": "//type",
+      "target": "id=originInput-input",
+      "targets": [],
+      "value": "Stockholm"
+    }, {
+      "id": "d1c5b3ab-6ed6-4130-9648-91757115ac23",
+      "comment": "",
+      "command": "click",
+      "target": "id=originInput-input",
+      "targets": [
+        ["id=originInput-input", "id"],
+        ["name=originInput-search", "name"],
+        ["css=#originInput-input", "css:finder"],
+        ["xpath=//input[@id='originInput-input']", "xpath:attributes"],
+        ["xpath=//label[@id='originInput-label']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f6afe5-fc66-406a-a674-6c613c5162f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#STOC .BpkText_bpk-text--body-default__NWNlO",
+      "targets": [
+        ["css=#STOC .BpkText_bpk-text--body-default__NWNlO", "css:finder"],
+        ["xpath=//section[@id='STOC']/div/span/span/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30227cbd-e41d-468c-9d25-c0c8f4df09a9",
+      "comment": "",
+      "command": "//type",
+      "target": "id=destinationInput-input",
+      "targets": [],
+      "value": "Sweden"
+    }, {
+      "id": "f250cb05-6f9c-4e85-90b0-0f46c7873e5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=destinationInput-input",
+      "targets": [
+        ["id=destinationInput-input", "id"],
+        ["name=destinationInput-search", "name"],
+        ["css=#destinationInput-input", "css:finder"],
+        ["xpath=//input[@id='destinationInput-input']", "xpath:attributes"],
+        ["xpath=//label[@id='destinationInput-label']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c93746-e9ce-415c-8d4c-d9eefe3701fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SE > .AutoSuggestComponents_suggestionInner__MGI0M",
+      "targets": [
+        ["css=#SE > .AutoSuggestComponents_suggestionInner__MGI0M", "css:finder"],
+        ["xpath=//section[@id='SE']/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8016f6a1-c1e3-40fc-a392-4f4197f86d03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DateSearchControlsGroup_datesContainer__ZDAwN:nth-child(1) .SearchControlButton_value__ZDA0N",
+      "targets": [
+        ["css=.DateSearchControlsGroup_datesContainer__ZDAwN:nth-child(1) .SearchControlButton_value__ZDA0N", "css:finder"],
+        ["xpath=//div[@id='app-root']/div/div/div/main/div/div/div[2]/div/div[3]/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'22/12/2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caeb0412-2fba-4a73-934f-bd679b0d0f17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CustomCalendar_startOfRange__MDMzN > .CustomCalendar_day__OWJhO",
+      "targets": [
+        ["css=.CustomCalendar_startOfRange__MDMzN > .CustomCalendar_day__OWJhO", "css:finder"],
+        ["xpath=(//button[@type='button'])[41]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div/main/div/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[4]/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10d99d4e-9050-40da-b94b-d5c21adf9b64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CustomCalendar_calendarGroup__YTYwN:nth-child(2) .CustomCalendar_weekRow__ODVkM:nth-child(1) > div:nth-child(6) .CustomCalendar_day__OWJhO",
+      "targets": [
+        ["css=.CustomCalendar_calendarGroup__YTYwN:nth-child(2) .CustomCalendar_weekRow__ODVkM:nth-child(1) > div:nth-child(6) .CustomCalendar_day__OWJhO", "css:finder"],
+        ["xpath=(//button[@type='button'])[57]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div/main/div/div/div[2]/div/div[3]/div[3]/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[6]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "389e316c-8cd7-4a1c-97d4-c8394927fd18",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CustomCalendar_calendarGroup__YTYwN:nth-child(2) .CustomCalendar_weekRow__ODVkM:nth-child(1) > div:nth-child(6) .CustomCalendar_day__OWJhO",
+      "targets": [
+        ["css=.CustomCalendar_calendarGroup__YTYwN:nth-child(2) .CustomCalendar_weekRow__ODVkM:nth-child(1) > div:nth-child(6) .CustomCalendar_day__OWJhO", "css:finder"],
+        ["xpath=(//button[@type='button'])[57]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div/main/div/div/div[2]/div/div[3]/div[3]/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[6]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03354058-9f86-421d-8bdb-d372d44b830b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CabinClassTravellerSearchControlGroup_traveller__YjExO > .SearchControlButton_value__ZDA0N",
+      "targets": [
+        ["css=.CabinClassTravellerSearchControlGroup_traveller__YjExO > .SearchControlButton_value__ZDA0N", "css:finder"],
+        ["xpath=//div[@id='app-root']/div/div/div/main/div/div/div[2]/div/div[4]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1 Adult, Economy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dfe9231-b18b-4e99-b677-cd45b963bb16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BpkButton_bpk-button--large__YTcxO",
+      "targets": [
+        ["css=.BpkButton_bpk-button--large__YTcxO", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div/main/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5c8defc-e0f9-4e20-b855-eba97fe8974c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.BpkSelectableChip_bpk-chip--default-selected__MTUxN",
+      "targets": [
+        ["css=.BpkButton_bpk-button--large__YTcxO", "css:finder"],
+        ["xpath=(//button[@type='button'])[28]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div[2]/div/main/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ddc8d25-ebb2-4d7f-bdd8-2f43d3d040bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) .BpkBackgroundImage_bpk-background-image__img__NDhjM",
+      "targets": [
+        ["css=.BpkCard_bpk-card__M2JkN:nth-child(1) .BpkBackgroundImage_bpk-background-image__img__NDhjM", "css:finder"],
+        ["xpath=//div[@id='CombinedResultsPlaces']/div[3]/div/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5746d812-04f4-4b53-8aa8-1395085b5b80",
+      "comment": "",
+      "command": "//assertElementPresent",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) .BpkBackgroundImage_bpk-background-image__img__NDhjM",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03472c8f-2ca0-40f0-a899-05008b22c092",
+      "comment": "",
+      "command": "//assertElementPresent",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) > .PlaceCard_descriptionContainer__NjcyZ > .BpkLink_bpk-link__NGYyM .PriceDescription_priceContainer__ZTM1N > .BpkText_bpk-text__ZmFmY",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3af8bfa0-5385-4645-97f5-7e8d7ce37f11",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) .PriceDescription_priceContainer__ZTM1N>span.BpkText_bpk-text__ZmFmY",
+      "targets": [],
+      "value": "price1"
+    }, {
+      "id": "e456b2a7-831c-4c75-8dd3-8b8d0faba211",
+      "comment": "",
+      "command": "echo",
+      "target": "${price1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36e1da6e-bbb7-4ae0-9622-1d0546bb49e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) .BpkBackgroundImage_bpk-background-image__img__NDhjM",
+      "targets": [
+        ["css=.BpkCard_bpk-card__M2JkN:nth-child(1) .BpkBackgroundImage_bpk-background-image__img__NDhjM", "css:finder"],
+        ["xpath=//div[@id='CombinedResultsPlaces']/div[3]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5757",
+      "windowTimeout": 2000
+    }, {
+      "id": "39fce48c-a961-4f36-99aa-818637be0a46",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5757}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e51fd48a-06fe-4834-bbaf-8d1390f31adb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) > .UnstyledButton_unstyledButton__OGEzM",
+      "targets": [
+        ["css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) > .UnstyledButton_unstyledButton__OGEzM", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div[2]/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407b0655-ee39-48ed-af51-cc79a81f8cdb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) > .UnstyledButton_unstyledButton__OGEzM",
+      "targets": [
+        ["css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) > .UnstyledButton_unstyledButton__OGEzM", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div[2]/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc0d1e7c-e6a1-4e60-b568-0cbb76caae71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) .FqsTab_priceContainer__MzYxM .BpkText_bpk-text__MWZkY",
+      "targets": [
+        ["css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) .FqsTab_priceContainer__MzYxM .BpkText_bpk-text__MWZkY", "css:finder"],
+        ["xpath=//div[@id='app-root']/div/div/div[2]/div[2]/div/div[2]/div[2]/button/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1324e1-5268-4060-88b6-337e5d2495bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=pagewrap",
+      "targets": [
+        ["id=pagewrap", "id"],
+        ["css=#pagewrap", "css:finder"],
+        ["xpath=//div[@id='pagewrap']", "xpath:attributes"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c373d7de-a138-4a27-817f-f91dc6596510",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) .FqsTab_priceContainer__MzYxM .BpkText_bpk-text__MWZkY",
+      "targets": [],
+      "value": "price2"
+    }, {
+      "id": "687c707a-9626-48a7-947d-4d3dda66db9d",
+      "comment": "",
+      "command": "echo",
+      "target": "${price2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "986e7f20-1ffa-495c-b971-029d3d7bdb88",
+      "comment": "",
+      "command": "assert",
+      "target": "price2",
+      "targets": [],
+      "value": "${price1}"
+    }]
+  }, {
+    "id": "fcf6d70a-6b66-4aed-8b7f-500c36079380",
+    "name": "priceCheckPartial",
+    "commands": [{
+      "id": "9f6c7130-e384-4fd7-b821-c2d9e02a5cf2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.skyscanner.se/transport/flights/stoc/se/231222/240106/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fcb3697-4923-49ac-8dd7-a9185b0139e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2434x1345",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccf0acef-cd24-4997-a645-ae8d7004d924",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.BpkSelectableChip_bpk-chip--default-selected__MTUxN",
+      "targets": [
+        ["css=.BpkSelectableChip_bpk-chip--default-selected__MTUxN", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='CombinedResultsPlaces']/div[2]/div/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cheapest flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fd598df-6246-41a0-b23d-bd4c39e7a6c5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1)>.PlaceCard_descriptionContainer__NjcyZ>.PlaceCard_nameContainer__MjM4N>span.BpkText_bpk-text__ZmFmY",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "76590f51-c405-42c3-b397-034350ee9672",
+      "comment": "",
+      "command": "echo",
+      "target": "${test}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be67cc2e-d1a2-4279-a8e9-812719642c87",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) .PriceDescription_priceContainer__ZTM1N .BpkText_bpk-text__ZmFmY",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbed7382-0fce-4393-8489-006c27ab121d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) .PriceDescription_priceContainer__ZTM1N>span.BpkText_bpk-text__ZmFmY",
+      "targets": [],
+      "value": "price"
+    }, {
+      "id": "bb359109-beee-463b-9ecd-2956f074858c",
+      "comment": "",
+      "command": "echo",
+      "target": "${price}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ef26764-0dc3-4de0-a1ee-9a98675be4b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BpkCard_bpk-card__M2JkN:nth-child(1) > .PlaceCard_descriptionContainer__NjcyZ > .BpkLink_bpk-link__NGYyM .PriceDescription_priceContainer__ZTM1N > .BpkText_bpk-text__ZmFmY",
+      "targets": [
+        ["css=.BpkCard_bpk-card__M2JkN:nth-child(1) > .PlaceCard_descriptionContainer__NjcyZ > .BpkLink_bpk-link__NGYyM .PriceDescription_priceContainer__ZTM1N > .BpkText_bpk-text__ZmFmY", "css:finder"],
+        ["xpath=//div[@id='CombinedResultsPlaces']/div[3]/div/div/div[2]/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'423 SEK')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2829",
+      "windowTimeout": 2000
+    }, {
+      "id": "ef867910-e66e-4022-bd6c-853456157c7e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2829}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "869ae4a3-e635-43c6-b362-0f440f9d1eea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) > .UnstyledButton_unstyledButton__OGEzM",
+      "targets": [
+        ["css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) > .UnstyledButton_unstyledButton__OGEzM", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//div[@id='app-root']/div/div/div[2]/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a81152e-c94b-463e-b3d7-33879d9d314c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) .FqsTab_priceContainer__MzYxM .BpkText_bpk-text__MWZkY",
+      "targets": [
+        ["css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) .FqsTab_priceContainer__MzYxM .BpkText_bpk-text__MWZkY", "css:finder"],
+        ["xpath=//div[@id='app-root']/div/div/div[2]/div[2]/div/div[2]/div[2]/button/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div/div/div/span", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "9a8e2da1-2e15-40cc-9c66-c26ccc5fc3fe",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.FqsTabs_tooltipTargetContainer__YjU5N:nth-child(2) .FqsTab_priceContainer__MzYxM .BpkText_bpk-text__MWZkY",
+      "targets": [],
+      "value": "price2"
+    }, {
+      "id": "5a2ca200-3bf3-4940-a778-719e5b0bda8f",
+      "comment": "",
+      "command": "echo",
+      "target": "${price2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0a7bddb-e9ce-46a7-aea8-70c471827154",
+      "comment": "",
+      "command": "assert",
+      "target": "price2",
+      "targets": [],
+      "value": "${price}"
+    }]
+  }],
+  "suites": [{
+    "id": "74b5f5f7-9ef6-475e-a076-48344ba65b2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4ebfcf32-bfe4-4d74-b792-bfffbec9b35f"]
+  }],
+  "urls": ["https://www.skyscanner.se/", "https://www.skyscanner.se/transport/flights/stoc/se/231222/240106/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false"],
+  "plugins": []
+}
